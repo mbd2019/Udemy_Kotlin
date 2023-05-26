@@ -1,3 +1,5 @@
+package Estudo_Kotlin.src.main.kotlin
+
 fun main() {
     println("Olá, Mundo")
     println("Double: Max: " + Double.MAX_VALUE + " - Double: " + Double.MIN_VALUE)
