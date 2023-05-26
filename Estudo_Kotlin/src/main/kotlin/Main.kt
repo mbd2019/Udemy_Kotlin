@@ -22,4 +22,42 @@ fun main() {
     val short: UShort = 10u
     val byte: UByte = 10u
     val long: ULong = 10u
+
+    /*Concatenação de String*/
+    val kotlin = "Kotlin " + "é show"
+    println(kotlin)
+
+    val nome = "Charles " +
+            "Babbage"
+
+    // Uso do $ para concatenar String se chama interpolação
+    println("Nome é $nome")
+    println("Tamanho do nome é de ${nome.length} caracteres.")
+
+    val linguagem = "Kotlin"
+    val caracteristica = "É show!"
+    val strFinal = linguagem + " " + caracteristica
+    println(strFinal)
+    println("$linguagem $caracteristica")
+
+    /*Operadores aritmétricos*/
+    // Operações
+    println("2 + 2 = ${2 + 2}")
+    println("2 - 2 = ${2 - 2}")
+    println("2 / 2 = ${2 / 2}")
+    println("2 * 2 = ${2 * 2}")
+    println("10 % 4 = ${10 % 4}")
+    println("10 % 2 = ${10 % 2}")
+
+    // Incremento e decremento
+    var numero = 10
+    println("numero++ = ${numero++}")
+    println(numero)
+    println("numero-- = ${numero--}")
+    println(numero)
+
+    println("++numero = ${++numero}")
+    println(numero)
+    println("--numero = ${--numero}")
+    println(numero)
 }
