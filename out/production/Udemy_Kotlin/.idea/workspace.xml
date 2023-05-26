@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d55993-f650-4da8-bc32-5586536db799" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Udemy_Kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Udemy_Kotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudo_Kotlin/src/main/kotlin/Unsigned.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudo_Kotlin/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Estudo_Kotlin/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
