@@ -1,6 +1,7 @@
 package Estudo_Kotlin.src.main.kotlin
 
 fun main() {
+   /*
     println("Olá, Mundo")
 
     /*Tipos de variáveis padrões*/
@@ -60,4 +61,30 @@ fun main() {
     println(numero)
     println("--numero = ${--numero}")
     println(numero)
+*/
+    //Exemplos de função
+    mensagem()
+
+    println("A soma dos números são: ${soma(10,5)}")
+
+    var word = "Programação Kotlin"
+    println(word.st)
 }
+
+fun mensagem(){
+    println("Olá, Bom dia.")
+}
+
+/**
+* Essa função é uma maneira simplificada de escrever a função de cima
+* fun mensagem() = println("Olá, Bom dia.")
+*/
+
+fun soma(a: Int, b: Int): Int{
+    return (a+b)
+}
+
+/**
+ * Esta função é uma maneira simplificada de escrever a função de cima
+ * fun soma(a: Int, b: Int) = (a+b)
+ */
